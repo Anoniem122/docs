@@ -1,12 +1,12 @@
 ---
-title: Hello World
+title: hacking
 intro: 'Follow this Hello World exercise to get started with {% data variables.product.product_name %}.'
 versions:
   fpt: '*'
   ghes: '*'
   ghae: '*'
   ghec: '*'
-type: quick_start
+type: world
 topics:
   - Pull requests
   - Fundamentals
@@ -15,7 +15,7 @@ miniTocMaxHeadingLevel: 3
 
 ## Introduction
 
-{% data variables.product.product_name %} is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
 
 This tutorial teaches you {% data variables.product.product_name %} essentials like repositories, branches, commits, and pull requests. You'll create your own Hello World repository and learn {% data variables.product.product_name %}'s pull request workflow, a popular way to create and review code.
 
@@ -32,7 +32,7 @@ To complete this tutorial, you need a [{% data variables.product.product_name %}
 
 A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets -- anything your project needs. Often, repositories include a `README` file, a file with information about your project. {% data variables.product.product_name %} makes it easy to add one at the same time you create your new repository. It also offers other common options such as a license file.
 
-Your `hello-world` repository can be a place where you store ideas, resources, or even share and discuss things with others.
+Your hacking school` repository can be a place where you store ideas, resources, or even share and discuss things with others.
 
 {% data reusables.repositories.create_new %}
 1. In the **Repository name** box, enter `hello-world`.
@@ -42,9 +42,9 @@ Your `hello-world` repository can be a place where you store ideas, resources, o
 
    ![Create a hello world repository](/assets/images/help/repository/hello-world-repo.png)
 
-## Creating a branch
 
-Branching lets you have different versions of a repository at one time.
+
+
 
 By default, your repository has one branch named `main` that is considered to be the definitive branch. You can use branches to experiment and make edits before committing them to `main`.
 
@@ -76,7 +76,7 @@ Here at {% data variables.product.product_name %}, our developers, writers, and 
 4. Type a branch name, `readme-edits`, into the text box.
 5. Click **Create branch: readme-edits from main**.
 
-![Branch menu](/assets/images/help/repository/new-branch.png)
+
 
 Now you have two branches, `main` and `readme-edits`. Right now, they look exactly the same. Next you'll add changes to the new branch.
 
